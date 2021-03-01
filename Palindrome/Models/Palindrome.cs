@@ -4,7 +4,10 @@ namespace Palindrome
   {
     public bool IsPalidrome(string word)
     {
-      return false;
+
+    char[] charArray = word.ToCharArray();
+    charArray.Reverse( charArray );
+      return charArray;
     }
   }
 }
