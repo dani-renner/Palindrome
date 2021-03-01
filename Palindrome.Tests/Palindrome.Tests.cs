@@ -9,7 +9,7 @@ namespace Palindrome.Test{
     public void IsUserWord_Palindrome()
     {
       SameBothWays testPalindrome = new SameBothWays();
-      Assert.AreEqual(true, testPalindrome.IsPalidrome("racecar"));
+      Assert.AreEqual(true, testPalindrome.WordReverse("racecar"));
     }
   }
 }

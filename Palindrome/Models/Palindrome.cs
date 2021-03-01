@@ -1,13 +1,14 @@
-namespace Palindrome
+using System;
+namespace Palindrome.Models
 {
   public class SameBothWays
   {
-    public bool IsPalidrome(string word)
+    public bool WordReverse(string word)
     {
-
     char[] charArray = word.ToCharArray();
-    charArray.Reverse( charArray );
-      return charArray;
+    Array.Reverse(charArray);
+    string reversedString = new string (charArray);
+    return (reversedString == word);
     }
   }
-}
+} 

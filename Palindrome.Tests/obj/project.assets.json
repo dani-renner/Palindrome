@@ -6690,8 +6690,8 @@
     },
     "Palindrome/1.0.0": {
       "type": "project",
-      "path": "../Palindrome.Solution/palindrome/Palindrome.csproj",
-      "msbuildProject": "../Palindrome.Solution/palindrome/Palindrome.csproj"
+      "path": "../Palindrome/Palindrome.csproj",
+      "msbuildProject": "../Palindrome/Palindrome.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6708,11 +6708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dani\\Desktop\\Epicodus\\palindrome\\Palindrome.Tests\\Palindrome.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Dani\\Desktop\\Epicodus\\Palindrome.Solution\\Palindrome.Tests\\Palindrome.Tests.csproj",
       "projectName": "Palindrome.Tests",
-      "projectPath": "C:\\Users\\Dani\\Desktop\\Epicodus\\palindrome\\Palindrome.Tests\\Palindrome.Tests.csproj",
+      "projectPath": "C:\\Users\\Dani\\Desktop\\Epicodus\\Palindrome.Solution\\Palindrome.Tests\\Palindrome.Tests.csproj",
       "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dani\\Desktop\\Epicodus\\palindrome\\Palindrome.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Dani\\Desktop\\Epicodus\\Palindrome.Solution\\Palindrome.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6727,8 +6727,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Dani\\Desktop\\Epicodus\\palindrome\\Palindrome.Solution\\palindrome\\Palindrome.csproj": {
-              "projectPath": "C:\\Users\\Dani\\Desktop\\Epicodus\\palindrome\\Palindrome.Solution\\palindrome\\Palindrome.csproj"
+            "C:\\Users\\Dani\\Desktop\\Epicodus\\Palindrome.Solution\\Palindrome\\Palindrome.csproj": {
+              "projectPath": "C:\\Users\\Dani\\Desktop\\Epicodus\\Palindrome.Solution\\Palindrome\\Palindrome.csproj"
             }
           }
         }
